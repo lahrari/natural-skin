@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Natural Skin balm tin, open, showing balm texture">
+  <rect width="600" height="600" fill="#F7F1E6"/>
+  <ellipse cx="300" cy="470" rx="170" ry="22" fill="#4A3B30" opacity="0.08"/>
+  <!-- tin body -->
+  <rect x="150" y="240" width="300" height="200" rx="18" fill="#EDE3D2" stroke="#4A3B30" stroke-width="3"/>
+  <!-- balm surface -->
+  <ellipse cx="300" cy="240" rx="150" ry="34" fill="#D9B98C" stroke="#4A3B30" stroke-width="3"/>
+  <path d="M170 232 Q230 218 300 232 T430 230" fill="none" stroke="#C17F59" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <!-- lid resting beside tin -->
+  <ellipse cx="470" cy="470" rx="80" ry="18" fill="#6E7456" stroke="#4A3B30" stroke-width="3"/>
+  <ellipse cx="470" cy="462" rx="80" ry="18" fill="#80876A" stroke="#4A3B30" stroke-width="3"/>
+  <text x="300" y="500" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#4A3B30" text-anchor="middle">Whipped tallow balm</text>
+</svg>

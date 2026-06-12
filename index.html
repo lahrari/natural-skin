@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Natural Skin — Organic Tallow &amp; Botanical Balm</title>
+  <meta name="description" content="Natural Skin Balm — made from organic, grass-fed and green-finished tallow blended with organic plant oils." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="logo">Natural Skin</a>
+      <nav class="site-nav">
+        <a href="#product">Shop</a>
+        <a href="#ingredients">Ingredients</a>
+      </nav>
+      <button id="cart-toggle" class="cart-toggle" aria-label="Open cart">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h3l2.6 13.4a2 2 0 0 0 2 1.6h9.8a2 2 0 0 0 2-1.6L23 6H6"/></svg>
+        <span id="cart-count" class="cart-count">0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="hero">
+    <div class="container hero-inner">
+      <p class="eyebrow">Small batch &middot; Organic &middot; Grass-fed</p>
+      <h1>Natural Skin</h1>
+      <p class="tagline">Skin care, the old way — whipped from organic, grass-fed and green-finished tallow, blended with organic plant oils. Nothing synthetic, nothing rushed.</p>
+      <a href="#product" class="btn btn-primary">Shop the Balm</a>
+    </div>
+  </section>
+
+  <!-- Product -->
+  <section id="product" class="product-section">
+    <div class="container product-grid">
+
+      <div class="product-gallery">
+        <div class="gallery-main">
+          <img id="gallery-main-img" src="assets/bottle-1.svg" alt="Natural Skin balm tin" />
+        </div>
+        <div class="gallery-thumbs">
+          <button class="thumb is-active" data-img="assets/bottle-1.svg">
+            <img src="assets/bottle-1.svg" alt="Natural Skin balm tin, closed" />
+          </button>
+          <button class="thumb" data-img="assets/bottle-2.svg">
+            <img src="assets/bottle-2.svg" alt="Natural Skin balm, open, showing texture" />
+          </button>
+          <button class="thumb" data-img="assets/bottle-3.svg">
+            <img src="assets/bottle-3.svg" alt="Natural Skin balm with botanical sprigs" />
+          </button>
+        </div>
+      </div>
+
+      <div class="product-info">
+        <h2>Natural Skin Balm</h2>
+        <p class="product-price" id="product-price">$32.00</p>
+        <p class="product-desc">
+          A rich, deeply nourishing balm made by gently rendering organic,
+          grass-fed and green-finished tallow and whipping it with organic
+          plant oils until silky. Melts on contact, absorbs fully, and leaves
+          skin soft without a greasy finish. Good for dry hands, faces,
+          elbows, and everywhere in between.
+        </p>
+
+        <div class="product-options">
+          <label for="qty-select">Quantity</label>
+          <select id="qty-select">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+
+        <button id="add-to-cart" class="btn btn-primary"
+          data-id="natural-skin-balm-4oz"
+          data-name="Natural Skin Balm — 4oz"
+          data-price="3200"
+          data-image="assets/bottle-1.svg">
+          Add to Cart
+        </button>
+
+        <ul class="product-meta">
+          <li>4 oz / 113 g tin</li>
+          <li>Unscented &amp; fragrance-free</li>
+          <li>Made in small batches</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About / Ingredients -->
+  <section id="ingredients" class="about-section">
+    <div class="container about-inner">
+      <h2>About the ingredients</h2>
+      <p>
+        The base of every tin is organic, grass-fed and green-finished
+        tallow — rendered slowly to preserve the naturally occurring
+        vitamins and fatty acids that closely mirror what's found in human
+        skin. We blend it with a short list of organic plant oils to soften
+        the texture and round out the nourishment.
+      </p>
+      <ul class="ingredient-list">
+        <li>
+          <strong>Grass-fed, green-finished tallow</strong>
+          <span>Slowly rendered from pasture-raised cattle, rich in vitamins A, D, E and K.</span>
+        </li>
+        <li>
+          <strong>Organic plant oils</strong>
+          <span>A simple blend chosen for absorption and a soft, non-greasy finish.</span>
+        </li>
+        <li>
+          <strong>Nothing else</strong>
+          <span>No synthetic fragrance, fillers, or preservatives — just what your skin needs.</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="logo">Natural Skin</p>
+      <nav class="footer-nav">
+        <a href="#product">Shop</a>
+        <a href="#ingredients">Ingredients</a>
+        <a href="mailto:hello@naturalskin.example">Contact</a>
+      </nav>
+      <p class="footer-copy">&copy; <span id="year"></span> Natural Skin. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Cart drawer -->
+  <div id="cart-backdrop" class="cart-backdrop"></div>
+  <aside id="cart-drawer" class="cart-drawer" aria-label="Shopping cart">
+    <div class="cart-header">
+      <h2>Your Cart</h2>
+      <button id="cart-close" class="cart-close" aria-label="Close cart">&times;</button>
+    </div>
+    <div id="cart-items" class="cart-items">
+      <p id="cart-empty" class="cart-empty">Your cart is empty.</p>
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Total</span>
+        <span id="cart-total">$0.00</span>
+      </div>
+      <button id="checkout-btn" class="btn btn-primary btn-block" disabled>Checkout</button>
+      <p id="checkout-error" class="checkout-error" hidden></p>
+    </div>
+  </aside>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

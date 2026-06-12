@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Natural Skin balm tin, closed">
+  <rect width="600" height="600" fill="#F0E6D6"/>
+  <ellipse cx="300" cy="470" rx="160" ry="22" fill="#4A3B30" opacity="0.08"/>
+  <!-- tin body -->
+  <rect x="150" y="220" width="300" height="220" rx="18" fill="#EDE3D2" stroke="#4A3B30" stroke-width="3"/>
+  <!-- lid -->
+  <rect x="140" y="170" width="320" height="70" rx="16" fill="#6E7456" stroke="#4A3B30" stroke-width="3"/>
+  <rect x="140" y="170" width="320" height="22" rx="10" fill="#80876A"/>
+  <!-- label -->
+  <rect x="190" y="280" width="220" height="120" rx="6" fill="#F7F1E6" stroke="#C17F59" stroke-width="2"/>
+  <text x="300" y="330" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#4A3B30" text-anchor="middle" font-weight="600">Natural Skin</text>
+  <text x="300" y="362" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#A8784F" text-anchor="middle" letter-spacing="2">BODY &amp; SKIN BALM</text>
+  <text x="300" y="386" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#6E7456" text-anchor="middle" letter-spacing="3">4 OZ</text>
+</svg>
